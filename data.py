@@ -1,22 +1,16 @@
-l=["Dr. Poonkuntran S",
-"Dr. Pon Harshavardhanan",
-"Dr. Pushpinder Singh Patheja",
-"Dr. M. Suresh",
-"Dr. Hemant Kumar Nashin",
-"Dr. Sheetal Sharma",
-"Dr. Prasad Begde",
+l=["Dr. Rajdeep Singh Payal",
+"Dr. Saurav Prasad",
+"Dr. Sayed Mohammed Zeeshan",
 "Dr. Siddhartha Maiti",
-"Dr. S. Balaguru"]
+"Dr. Soumya Sankar Ghosh",
+"Dr. Shiv Manjaree Gopaliya"]
 
-s=["Executive Dean, VIT Bhopal",
-"Dean-SCAI, VIT Bhopal University",
-"Dean-SCOPE, VIT Bhopal University",
-"Dean SEEE, VIT Bhopal",
-"Dean SASL, VIT Bhopal",
-"Dean SOA, VIT Bhopal",
-"Dean, VIT-BS",
-"SBET, VIT Bhopal",
-"Dean, SMEC, VIT Bhopal"]
+s=["SASL, VIT Bhopal University",
+"SASL, VIT Bhopal University",
+"SASL, VIT Bhopal University",
+"SBET, VIT Bhopal University",
+"SASL, VIT Bhopal University",
+"SMEC, VIT Bhopal University"]
 
 for i in range(len(l)):
     print(f'''
