@@ -1,1233 +1,696 @@
-<!DOCTYPE html>
-<html lang="en">
-
-
-
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-
-<head>
-    <meta charset="utf-8">
-    <title>ICDCC-2024</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
-
-    <!-- Favicon -->
-    <link href="images/logo.ico" rel="icon">
-
-    <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com/">
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&amp;family=Nunito:wght@600;700;800&amp;display=swap"
-        rel="stylesheet">
-
-    <!-- Icon Font Stylesheet -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
-
-    <!-- Libraries Stylesheet -->
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-
-    <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
-</head>
-
-<body>
-    <!-- Spinner Start -->
-    <div id="spinner"
-        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
-            <span class="sr-only">Loading...</span>
-        </div>
-    </div>
-    <!-- Spinner End -->
-
-
-<!-- Navbar Start -->
-<nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
-    <a href="index-2.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
-        <h2 class="m-0 text-primary"><i class=""><img src="images/logo.jpeg" class="navbar-brand"></i></h2>
-    </a>
-    <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarCollapse">
-        <div class="navbar-nav ms-auto p-4 p-lg-0">
-            <a href="index-2.html" class="nav-item nav-link ">Home</a>
-            <!-- <a href="sponsor.html" class="nav-item nav-link ">Sponsor</a> -->
-            <a href="paper_submission.html" class="nav-item nav-link  ">Paper Submission</a>
-            <a href="committee.html" class="nav-item nav-link active ">Committee</a>
-            <a href="schedule.html" class="nav-item nav-link ">Schedule</a>
-            <a href="registration.html" class="nav-item nav-link ">Registration</a>
-            <!-- <a href="proceedings.html" class="nav-item nav-link ">Proceedings</a> -->
-            <a href="contact.html" class="nav-item nav-link ">Contact Us</a>
-        </div>
+<html lang=en>
+<meta content="text/html;charset=UTF-8" http-equiv=content-type>
+<meta charset=utf-8>
+<title>ICDCC-2024</title>
+<meta content="width=device-width,initial-scale=1" name=viewport>
+<meta content="" name=keywords>
+<meta content="" name=description>
+<link href=images/logo.ico rel=icon>
+<link href=https://fonts.googleapis.com/ rel=preconnect>
+<link href=https://fonts.gstatic.com/ rel=preconnect crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap"
+    rel=stylesheet>
+<link href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css rel=stylesheet>
+<link href=https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css rel=stylesheet>
+<link href=lib/animate/animate.min.css rel=stylesheet>
+<link href=lib/owlcarousel/assets/owl.carousel.min.css rel=stylesheet>
+<link href=css/bootstrap.min.css rel=stylesheet>
+<link href=css/style.css rel=stylesheet>
+<div class="bg-white align-items-center d-flex justify-content-center position-fixed show start-50 top-50 translate-middle vh-100 w-100"
+    id=spinner>
+    <div class="spinner-border text-primary" role=status style=width:3rem;height:3rem><span
+            class=sr-only>Loading...</span></div>
+</div>
+<nav class="bg-white navbar navbar-expand-lg navbar-light p-0 shadow sticky-top"><a href=index-2.html
+        class="d-flex align-items-center navbar-brand px-4 px-lg-5">
+        <h2 class="m-0 text-primary"><i><img class=navbar-brand src=images/logo.jpeg></i></h2>
+    </a><button class="me-4 navbar-toggler" data-bs-target=#navbarCollapse data-bs-toggle=collapse type=button><span
+            class=navbar-toggler-icon></span></button>
+    <div class="collapse navbar-collapse" id=navbarCollapse>
+        <div class="p-4 ms-auto navbar-nav p-lg-0"><a href=index-2.html class="nav-item nav-link">Home</a><a
+                href=paper_submission.html class="nav-item nav-link">Paper Submission</a> <a href=committee.html
+                class="nav-item nav-link active">Committee</a> <a href=schedule.html
+                class="nav-item nav-link">Schedule</a> <a href=registration.html
+                class="nav-item nav-link">Registration</a><a href=contact.html class="nav-item nav-link">Contact
+                Us</a></div>
 </nav>
-<!-- Navbar End -->
-<!-- Header Start -->
-<div class="container-fluid bg-primary py-5 mb-5 page-header">
+<div class="py-5 bg-primary container-fluid mb-5 page-header">
     <div class="container py-5">
         <div class="row justify-content-center">
-            <div class="col-lg-10 text-center">
-                <h1 class="display-3 text-white animated slideInDown">Committee</h1>
+            <div class="text-center col-lg-10">
+                <h1 class="text-white animated display-3 slideInDown">Committee</h1>
             </div>
         </div>
     </div>
 </div>
-<!-- Header End -->
-
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="row">
-                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                    <h6 class="section-title bg-white text-center text-primary px-3">ICDCC-2024</h6>
-                    <h1 class="mb-1">Committee</h1>
-                </div>
-                <div class="col-lg-12 wow fadeInUp " data-wow-delay="0.3s">
-                    <h4 class="section-title bg-white text-start text-primary pe-3 text-capitalize mb-3 mt-3">Chief
-                        Patron</h4>
-                    <div class="row g-4">
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="team-item bg-light">
-                                <div class="overflow-hidden image-container">
-                                    <img class="img-fluid" src="images/committee/g-viswanathan.jpg" alt="">
-                                </div>
-                                <div class="text-center p-4">
-                                    <h5 class="mb-0">Hon'ble Dr. G. Viswanathan
-                                    </h5>
-                                    <small> Founder & Chancellor, VIT University</small>
-                                </div>
+<div class="py-5 container-xxl">
+    <div class=container>
+        <div class=row>
+            <div class="wow fadeInUp text-center" data-wow-delay=0.1s>
+                <h6 class="text-center bg-white px-3 section-title text-primary">ICDCC-2024</h6>
+                <h1 class=mb-1>Committee</h1>
+            </div>
+            <div class="wow fadeInUp col-lg-12" data-wow-delay=0.3s>
+                <h4 class="bg-white section-title text-primary mb-3 mt-3 pe-3 text-capitalize text-start">Chief
+                    Patron</h4>
+                <div class="row g-4">
+                    <div class="wow fadeInUp col-lg-3 col-md-6" data-wow-delay=0.1s>
+                        <div class="bg-light team-item">
+                            <div class="image-container overflow-hidden"><img class=img-fluid
+                                    src=images/committee/g-viswanathan.jpg alt=""></div>
+                            <div class="text-center p-4">
+                                <h5 class=mb-0>Hon'ble Dr. G. Viswanathan</h5><small>Founder & Chancellor, VIT
+                                    University</small>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-12 wow fadeInUp " data-wow-delay="0.3s">
-                    <h4 class="section-title bg-white text-start text-primary pe-3 text-capitalize mb-3 mt-3">Patron
-                    </h4>
-                    <div class="row g-4">
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="team-item bg-light">
-                                <div class="overflow-hidden image-container">
-                                    <img class="img-fluid" src="images/committee/shankar-viswanathan.jpg" alt="">
-                                </div>
-                                <div class="text-center p-4">
-                                    <h5 class="mb-0">Mr. Sankar Viswanathan</h5>
-                                    <small>Vice President, VIT Bhopal University</small>
-                                </div>
+            </div>
+            <div class="wow fadeInUp col-lg-12" data-wow-delay=0.3s>
+                <h4 class="bg-white section-title text-primary mb-3 mt-3 pe-3 text-capitalize text-start">Patron
+                </h4>
+                <div class="row g-4">
+                    <div class="wow fadeInUp col-lg-3 col-md-6" data-wow-delay=0.1s>
+                        <div class="bg-light team-item">
+                            <div class="image-container overflow-hidden"><img class=img-fluid
+                                    src=images/committee/shankar-viswanathan.jpg alt=""></div>
+                            <div class="text-center p-4">
+                                <h5 class=mb-0>Mr. Sankar Viswanathan</h5><small>Vice President, VIT Bhopal
+                                    University</small>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="team-item bg-light">
-                                <div class="overflow-hidden image-container">
-                                    <img class="img-fluid" src="images/committee/kadambari.jpg" alt="">
-                                </div>
-                                <div class="text-center p-4">
-                                    <h5 class="mb-0">Ms. Kadhambari S. Viswanathan</h5>
-                                    <small>Assistant Vice President, VIT Bhopal University
-                                    </small>
-                                </div>
+                    </div>
+                    <div class="wow fadeInUp col-lg-3 col-md-6" data-wow-delay=0.1s>
+                        <div class="bg-light team-item">
+                            <div class="image-container overflow-hidden"><img class=img-fluid
+                                    src=images/committee/kadambari.jpg alt=""></div>
+                            <div class="text-center p-4">
+                                <h5 class=mb-0>Ms. Kadhambari S. Viswanathan</h5><small>Assistant Vice President,
+                                    VIT Bhopal University</small>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-12 wow fadeInUp " data-wow-delay="0.3s">
-                    <h4 class="section-title bg-white text-start text-primary pe-3 text-capitalize mb-3 mt-3">Co-Patron
-                    </h4>
-                    <div class="row g-4">
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="team-item bg-light">
-                                <div class="overflow-hidden image-container">
-                                    <img class="img-fluid" src="images/committee/senthil.jpg" alt="">
-                                </div>
-                                <div class="text-center p-4">
-                                    <h5 class="mb-0">Dr. Senthil Kumar Arumugam</h5>
-                                    <small>Vice Chancellor, VIT Bhopal University</small>
-                                </div>
+            </div>
+            <div class="wow fadeInUp col-lg-12" data-wow-delay=0.3s>
+                <h4 class="bg-white section-title text-primary mb-3 mt-3 pe-3 text-capitalize text-start">Co-Patron
+                </h4>
+                <div class="row g-4">
+                    <div class="wow fadeInUp col-lg-3 col-md-6" data-wow-delay=0.1s>
+                        <div class="bg-light team-item">
+                            <div class="image-container overflow-hidden"><img class=img-fluid
+                                    src=images/committee/senthil.jpg alt=""></div>
+                            <div class="text-center p-4">
+                                <h5 class=mb-0>Dr. Senthil Kumar Arumugam</h5><small>Vice Chancellor, VIT Bhopal
+                                    University</small>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="team-item bg-light">
-                                <div class="overflow-hidden image-container">
-                                    <img class="img-fluid" src="images/committee/debashish.jpg" alt="">
-                                </div>
-                                <div class="text-center p-4">
-                                    <h5 class="mb-0">Dr. Debashish Adhikari</h5>
-                                    <small>Registrar, VIT Bhopal University
-                                    </small>
-                                </div>
+                    </div>
+                    <div class="wow fadeInUp col-lg-3 col-md-6" data-wow-delay=0.1s>
+                        <div class="bg-light team-item">
+                            <div class="image-container overflow-hidden"><img class=img-fluid
+                                    src=images/committee/debashish.jpg alt=""></div>
+                            <div class="text-center p-4">
+                                <h5 class=mb-0>Dr. Debashish Adhikari</h5><small>Registrar, VIT Bhopal
+                                    University</small>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-12 wow fadeInUp " data-wow-delay="0.3s">
-                    <h4 class="section-title bg-white text-start text-primary pe-3 text-capitalize mb-3 mt-3">International Advisory Committee
-                    </h4>
-                    <div class="row g-4">
-
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="team-item bg-light">
-                                <!-- <div class="overflow-hidden">
-                                    <img class="img-fluid" src="images/committee/Buyya.jpg" alt="">
-                                </div> -->
-                                <div class="text-center p-4">
-                                    <h5 class="mb-0">Prof. Hua Wang</h5>
-                                    <small>Professor, Victoria University, Melbourne, Victoria, Australia.</small>
-                                </div>
+            </div>
+            <div class="wow fadeInUp col-lg-12" data-wow-delay=0.3s>
+                <h4 class="bg-white section-title text-primary mb-3 mt-3 pe-3 text-capitalize text-start">
+                    International Advisory Committee</h4>
+                <div class="row g-4">
+                    <div class="wow fadeInUp col-lg-3 col-md-6" data-wow-delay=0.1s>
+                        <div class="bg-light team-item">
+                            <div class="text-center p-4">
+                                <h5 class=mb-0>Prof. Hua Wang</h5><small>Professor, Victoria University, Melbourne,
+                                    Victoria, Australia.</small>
                             </div>
                         </div>
-
-
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="team-item bg-light">
-                                <!-- <div class="overflow-hidden">
-                                    <img class="img-fluid" src="images/committee/Buyya.jpg" alt="">
-                                </div> -->
-                                <div class="text-center p-4">
-                                    <h5 class="mb-0">Prof. Ing. Klaus David</h5>
-                                    <small>University of Kassel, Germany</small>
-                                </div>
+                    </div>
+                    <div class="wow fadeInUp col-lg-3 col-md-6" data-wow-delay=0.1s>
+                        <div class="bg-light team-item">
+                            <div class="text-center p-4">
+                                <h5 class=mb-0>Prof. Ing. Klaus David</h5><small>University of Kassel,
+                                    Germany</small>
                             </div>
                         </div>
-
-
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="team-item bg-light">
-                                <!-- <div class="overflow-hidden">
-                                    <img class="img-fluid" src="images/committee/Buyya.jpg" alt="">
-                                </div> -->
-                                <div class="text-center p-4">
-                                    <h5 class="mb-0">Prof. Valentina Emilia Balas</h5>
-                                    <small>Aurel Vlaicu University of Arad, Romania</small>
-                                </div>
+                    </div>
+                    <div class="wow fadeInUp col-lg-3 col-md-6" data-wow-delay=0.1s>
+                        <div class="bg-light team-item">
+                            <div class="text-center p-4">
+                                <h5 class=mb-0>Prof. Valentina Emilia Balas</h5><small>Aurel Vlaicu University of
+                                    Arad, Romania</small>
                             </div>
                         </div>
-
-
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="team-item bg-light">
-                                <!-- <div class="overflow-hidden">
-                                    <img class="img-fluid" src="images/committee/Buyya.jpg" alt="">
-                                </div> -->
-                                <div class="text-center p-4">
-                                    <h5 class="mb-0">Prof. Mahdi Rezaei</h5>
-                                    <small>University of Leeds, UK</small>
-                                </div>
+                    </div>
+                    <div class="wow fadeInUp col-lg-3 col-md-6" data-wow-delay=0.1s>
+                        <div class="bg-light team-item">
+                            <div class="text-center p-4">
+                                <h5 class=mb-0>Prof. Mahdi Rezaei</h5><small>University of Leeds, UK</small>
                             </div>
                         </div>
-
-
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="team-item bg-light">
-                                <!-- <div class="overflow-hidden">
-                                    <img class="img-fluid" src="images/committee/Buyya.jpg" alt="">
-                                </div> -->
-                                <div class="text-center p-4">
-                                    <h5 class="mb-0">Prof. Dr. Joy Iong Zong Chen</h5>
-                                    <small>Da-Yeh University, Changhua County, Taiwan</small>
-                                </div>
+                    </div>
+                    <div class="wow fadeInUp col-lg-3 col-md-6" data-wow-delay=0.1s>
+                        <div class="bg-light team-item">
+                            <div class="text-center p-4">
+                                <h5 class=mb-0>Prof. Dr. Joy Iong Zong Chen</h5><small>Da-Yeh University, Changhua
+                                    County, Taiwan</small>
                             </div>
                         </div>
-
-
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="team-item bg-light">
-                                <!-- <div class="overflow-hidden">
-                                    <img class="img-fluid" src="images/committee/Buyya.jpg" alt="">
-                                </div> -->
-                                <div class="text-center p-4">
-                                    <h5 class="mb-0">Prof. Atilla Elçi</h5>
-                                    <small>Hasan Kalyoncu University, Turkey</small>
-                                </div>
+                    </div>
+                    <div class="wow fadeInUp col-lg-3 col-md-6" data-wow-delay=0.1s>
+                        <div class="bg-light team-item">
+                            <div class="text-center p-4">
+                                <h5 class=mb-0>Prof. Atilla Elçi</h5><small>Hasan Kalyoncu University,
+                                    Turkey</small>
                             </div>
                         </div>
-
-
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="team-item bg-light">
-                                <!-- <div class="overflow-hidden">
-                                    <img class="img-fluid" src="images/committee/Buyya.jpg" alt="">
-                                </div> -->
-                                <div class="text-center p-4">
-                                    <h5 class="mb-0">Prof. Dian Tjondronegoro</h5>
-                                    <small>Griffith University, Brisbane, Queensland, Australia</small>
-                                </div>
+                    </div>
+                    <div class="wow fadeInUp col-lg-3 col-md-6" data-wow-delay=0.1s>
+                        <div class="bg-light team-item">
+                            <div class="text-center p-4">
+                                <h5 class=mb-0>Prof. Dian Tjondronegoro</h5><small>Griffith University, Brisbane,
+                                    Queensland, Australia</small>
                             </div>
                         </div>
-
-
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="team-item bg-light">
-                                <!-- <div class="overflow-hidden">
-                                    <img class="img-fluid" src="images/committee/Buyya.jpg" alt="">
-                                </div> -->
-                                <div class="text-center p-4">
-                                    <h5 class="mb-0">Prof. Yew Soon Ong</h5>
-                                    <small>Nanyang Technological University, Singapore</small>
-                                </div>
+                    </div>
+                    <div class="wow fadeInUp col-lg-3 col-md-6" data-wow-delay=0.1s>
+                        <div class="bg-light team-item">
+                            <div class="text-center p-4">
+                                <h5 class=mb-0>Prof. Yew Soon Ong</h5><small>Nanyang Technological University,
+                                    Singapore</small>
                             </div>
                         </div>
-
-
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="team-item bg-light">
-                                <!-- <div class="overflow-hidden">
-                                    <img class="img-fluid" src="images/committee/Buyya.jpg" alt="">
-                                </div> -->
-                                <div class="text-center p-4">
-                                    <h5 class="mb-0">Dr. Mohammad Mahtab Alam</h5>
-                                    <small>King Khalid University Abha, Saudi Arabia</small>
-                                </div>
+                    </div>
+                    <div class="wow fadeInUp col-lg-3 col-md-6" data-wow-delay=0.1s>
+                        <div class="bg-light team-item">
+                            <div class="text-center p-4">
+                                <h5 class=mb-0>Dr. Mohammad Mahtab Alam</h5><small>King Khalid University Abha,
+                                    Saudi Arabia</small>
                             </div>
                         </div>
-
-
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="team-item bg-light">
-                                <!-- <div class="overflow-hidden">
-                                    <img class="img-fluid" src="images/committee/Buyya.jpg" alt="">
-                                </div> -->
-                                <div class="text-center p-4">
-                                    <h5 class="mb-0">Prof. Rajkumar Buyya</h5>
-                                    <small>University of Melbourne, Australia</small>
-                                </div>
+                    </div>
+                    <div class="wow fadeInUp col-lg-3 col-md-6" data-wow-delay=0.1s>
+                        <div class="bg-light team-item">
+                            <div class="text-center p-4">
+                                <h5 class=mb-0>Prof. Rajkumar Buyya</h5><small>University of Melbourne,
+                                    Australia</small>
                             </div>
                         </div>
-
-
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="team-item bg-light">
-                                <!-- <div class="overflow-hidden">
-                                    <img class="img-fluid" src="images/committee/Buyya.jpg" alt="">
-                                </div> -->
-                                <div class="text-center p-4">
-                                    <h5 class="mb-0">Mr. Manivannan P</h5>
-                                    <small>Vice President, Technology Manager, Bank of America, Singapore</small>
-                                </div>
+                    </div>
+                    <div class="wow fadeInUp col-lg-3 col-md-6" data-wow-delay=0.1s>
+                        <div class="bg-light team-item">
+                            <div class="text-center p-4">
+                                <h5 class=mb-0>Mr. Manivannan P</h5><small>Vice President, Technology Manager, Bank
+                                    of America, Singapore</small>
                             </div>
                         </div>
-
-
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="team-item bg-light">
-                                <!-- <div class="overflow-hidden">
-                                    <img class="img-fluid" src="images/committee/Buyya.jpg" alt="">
-                                </div> -->
-                                <div class="text-center p-4">
-                                    <h5 class="mb-0">Mr. Raghuram Nanda</h5>
-                                    <small>Technical Architect- Accenture, Englewood, Colorado, US</small>
-                                </div>
+                    </div>
+                    <div class="wow fadeInUp col-lg-3 col-md-6" data-wow-delay=0.1s>
+                        <div class="bg-light team-item">
+                            <div class="text-center p-4">
+                                <h5 class=mb-0>Mr. Raghuram Nanda</h5><small>Technical Architect- Accenture,
+                                    Englewood, Colorado, US</small>
                             </div>
                         </div>
-
-
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="team-item bg-light">
-                                <!-- <div class="overflow-hidden">
-                                    <img class="img-fluid" src="images/committee/Buyya.jpg" alt="">
-                                </div> -->
-                                <div class="text-center p-4">
-                                    <h5 class="mb-0">Prof. Anand Paul</h5>
-                                    <small>Kyungpook National University, South Korea</small>
-                                </div>
+                    </div>
+                    <div class="wow fadeInUp col-lg-3 col-md-6" data-wow-delay=0.1s>
+                        <div class="bg-light team-item">
+                            <div class="text-center p-4">
+                                <h5 class=mb-0>Prof. Anand Paul</h5><small>Kyungpook National University, South
+                                    Korea</small>
                             </div>
                         </div>
-
-
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="team-item bg-light">
-                                <!-- <div class="overflow-hidden">
-                                    <img class="img-fluid" src="images/committee/Buyya.jpg" alt="">
-                                </div> -->
-                                <div class="text-center p-4">
-                                    <h5 class="mb-0">Dr Hari Pandey</h5>
-                                    <small>Bournemouth University, UK</small>
-                                </div>
+                    </div>
+                    <div class="wow fadeInUp col-lg-3 col-md-6" data-wow-delay=0.1s>
+                        <div class="bg-light team-item">
+                            <div class="text-center p-4">
+                                <h5 class=mb-0>Dr Hari Pandey</h5><small>Bournemouth University, UK</small>
                             </div>
                         </div>
-
-
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="team-item bg-light">
-                                <!-- <div class="overflow-hidden">
-                                    <img class="img-fluid" src="images/committee/Buyya.jpg" alt="">
-                                </div> -->
-                                <div class="text-center p-4">
-                                    <h5 class="mb-0">Dr. Xavier Fernando</h5>
-                                    <small>Toronto Metropolitan University, Ontario, Canada</small>
-                                </div>
+                    </div>
+                    <div class="wow fadeInUp col-lg-3 col-md-6" data-wow-delay=0.1s>
+                        <div class="bg-light team-item">
+                            <div class="text-center p-4">
+                                <h5 class=mb-0>Dr. Xavier Fernando</h5><small>Toronto Metropolitan University,
+                                    Ontario, Canada</small>
                             </div>
                         </div>
-
-
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="team-item bg-light">
-                                <!-- <div class="overflow-hidden">
-                                    <img class="img-fluid" src="images/committee/Buyya.jpg" alt="">
-                                </div> -->
-                                <div class="text-center p-4">
-                                    <h5 class="mb-0">Prof. Subramaniam Ganesan</h5>
-                                    <small>Oakland University Rochester, USA</small>
-                                </div>
+                    </div>
+                    <div class="wow fadeInUp col-lg-3 col-md-6" data-wow-delay=0.1s>
+                        <div class="bg-light team-item">
+                            <div class="text-center p-4">
+                                <h5 class=mb-0>Prof. Subramaniam Ganesan</h5><small>Oakland University Rochester,
+                                    USA</small>
                             </div>
                         </div>
-
-
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="team-item bg-light">
-                                <!-- <div class="overflow-hidden">
-                                    <img class="img-fluid" src="images/committee/Buyya.jpg" alt="">
-                                </div> -->
-                                <div class="text-center p-4">
-                                    <h5 class="mb-0">Dr.Vinod Pangaracious</h5>
-                                    <small>American University, Dubai        </small>
-                                </div>
+                    </div>
+                    <div class="wow fadeInUp col-lg-3 col-md-6" data-wow-delay=0.1s>
+                        <div class="bg-light team-item">
+                            <div class="text-center p-4">
+                                <h5 class=mb-0>Dr.Vinod Pangaracious</h5><small>American University, Dubai</small>
                             </div>
                         </div>
-
-
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="team-item bg-light">
-                                <!-- <div class="overflow-hidden">
-                                    <img class="img-fluid" src="images/committee/Buyya.jpg" alt="">
-                                </div> -->
-                                <div class="text-center p-4">
-                                    <h5 class="mb-0">Dr. Balakrishnan Prabhakaran</h5>
-                                    <small>The University of Texas at Dallas, USA</small>
-                                </div>
+                    </div>
+                    <div class="wow fadeInUp col-lg-3 col-md-6" data-wow-delay=0.1s>
+                        <div class="bg-light team-item">
+                            <div class="text-center p-4">
+                                <h5 class=mb-0>Dr. Balakrishnan Prabhakaran</h5><small>The University of Texas at
+                                    Dallas, USA</small>
                             </div>
                         </div>
-
-
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="team-item bg-light">
-                                <!-- <div class="overflow-hidden">
-                                    <img class="img-fluid" src="images/committee/Buyya.jpg" alt="">
-                                </div> -->
-                                <div class="text-center p-4">
-                                    <h5 class="mb-0">Dr.Vipul Goyal</h5>
-                                    <small>Senior Scientist, Carnegie Mellon University, USA</small>
-                                </div>
+                    </div>
+                    <div class="wow fadeInUp col-lg-3 col-md-6" data-wow-delay=0.1s>
+                        <div class="bg-light team-item">
+                            <div class="text-center p-4">
+                                <h5 class=mb-0>Dr.Vipul Goyal</h5><small>Senior Scientist, Carnegie Mellon
+                                    University, USA</small>
                             </div>
                         </div>
-
-
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="team-item bg-light">
-                                <!-- <div class="overflow-hidden">
-                                    <img class="img-fluid" src="images/committee/Buyya.jpg" alt="">
-                                </div> -->
-                                <div class="text-center p-4">
-                                    <h5 class="mb-0">Ms. Anjuli Shankhwar</h5>
-                                    <small>Manager - Data Platforms, New South Wales, Australia</small>
-                                </div>
+                    </div>
+                    <div class="wow fadeInUp col-lg-3 col-md-6" data-wow-delay=0.1s>
+                        <div class="bg-light team-item">
+                            <div class="text-center p-4">
+                                <h5 class=mb-0>Ms. Anjuli Shankhwar</h5><small>Manager - Data Platforms, New South
+                                    Wales, Australia</small>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-12 wow fadeInUp " data-wow-delay="0.3s">
-                    <h4 class="section-title bg-white text-start text-primary pe-3 text-capitalize mb-3 mt-3">National Advisory Committee
-                    </h4>
-                    <div class="row g-4">
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="team-item bg-light">
-                                <!-- <div class="overflow-hidden">
-                                    <img class="img-fluid" src="images/committee/Buyya.jpg" alt="">
-                                </div> -->
-                                <div class="text-center p-4">
-                                    <h5 class="mb-0">Prof. Debasis Samanta</h5>
-                                    <small>IIT Kharagpur, India</small>
-                                </div>
+            </div>
+            <div class="wow fadeInUp col-lg-12" data-wow-delay=0.3s>
+                <h4 class="bg-white section-title text-primary mb-3 mt-3 pe-3 text-capitalize text-start">National
+                    Advisory Committee</h4>
+                <div class="row g-4">
+                    <div class="wow fadeInUp col-lg-3 col-md-6" data-wow-delay=0.1s>
+                        <div class="bg-light team-item">
+                            <div class="text-center p-4">
+                                <h5 class=mb-0>Prof. Debasis Samanta</h5><small>IIT Kharagpur, India</small>
                             </div>
                         </div>
-                        
-
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="team-item bg-light">
-                                <!-- <div class="overflow-hidden">
-                                    <img class="img-fluid" src="images/committee/Buyya.jpg" alt="">
-                                </div> -->
-                                <div class="text-center p-4">
-                                    <h5 class="mb-0">Prof. Sandeep Kumar</h5>
-                                    <small>IIT Roorkee, India</small>
-                                </div>
+                    </div>
+                    <div class="wow fadeInUp col-lg-3 col-md-6" data-wow-delay=0.1s>
+                        <div class="bg-light team-item">
+                            <div class="text-center p-4">
+                                <h5 class=mb-0>Prof. Sandeep Kumar</h5><small>IIT Roorkee, India</small>
                             </div>
                         </div>
-                        
-
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="team-item bg-light">
-                                <!-- <div class="overflow-hidden">
-                                    <img class="img-fluid" src="images/committee/Buyya.jpg" alt="">
-                                </div> -->
-                                <div class="text-center p-4">
-                                    <h5 class="mb-0">Dr. Sateesh K. Peddoju</h5>
-                                    <small>IIT Roorkee, India</small>
-                                </div>
+                    </div>
+                    <div class="wow fadeInUp col-lg-3 col-md-6" data-wow-delay=0.1s>
+                        <div class="bg-light team-item">
+                            <div class="text-center p-4">
+                                <h5 class=mb-0>Dr. Sateesh K. Peddoju</h5><small>IIT Roorkee, India</small>
                             </div>
                         </div>
-                        
-
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="team-item bg-light">
-                                <!-- <div class="overflow-hidden">
-                                    <img class="img-fluid" src="images/committee/Buyya.jpg" alt="">
-                                </div> -->
-                                <div class="text-center p-4">
-                                    <h5 class="mb-0">Dr. Adarsh Patel</h5>
-                                    <small>IIT Mandi, India</small>
-                                </div>
+                    </div>
+                    <div class="wow fadeInUp col-lg-3 col-md-6" data-wow-delay=0.1s>
+                        <div class="bg-light team-item">
+                            <div class="text-center p-4">
+                                <h5 class=mb-0>Dr. Adarsh Patel</h5><small>IIT Mandi, India</small>
                             </div>
                         </div>
-                        
-
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="team-item bg-light">
-                                <!-- <div class="overflow-hidden">
-                                    <img class="img-fluid" src="images/committee/Buyya.jpg" alt="">
-                                </div> -->
-                                <div class="text-center p-4">
-                                    <h5 class="mb-0">Prof. Bhupesh Kumar Lad</h5>
-                                    <small>IIT Indore</small>
-                                </div>
+                    </div>
+                    <div class="wow fadeInUp col-lg-3 col-md-6" data-wow-delay=0.1s>
+                        <div class="bg-light team-item">
+                            <div class="text-center p-4">
+                                <h5 class=mb-0>Prof. Bhupesh Kumar Lad</h5><small>IIT Indore</small>
                             </div>
                         </div>
-                        
-
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="team-item bg-light">
-                                <!-- <div class="overflow-hidden">
-                                    <img class="img-fluid" src="images/committee/Buyya.jpg" alt="">
-                                </div> -->
-                                <div class="text-center p-4">
-                                    <h5 class="mb-0">Prof. Narendra Chaudhari</h5>
-                                    <small>IIT Indore</small>
-                                </div>
+                    </div>
+                    <div class="wow fadeInUp col-lg-3 col-md-6" data-wow-delay=0.1s>
+                        <div class="bg-light team-item">
+                            <div class="text-center p-4">
+                                <h5 class=mb-0>Prof. Narendra Chaudhari</h5><small>IIT Indore</small>
                             </div>
                         </div>
-                        
-
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="team-item bg-light">
-                                <!-- <div class="overflow-hidden">
-                                    <img class="img-fluid" src="images/committee/Buyya.jpg" alt="">
-                                </div> -->
-                                <div class="text-center p-4">
-                                    <h5 class="mb-0">Prof. Pramod Kumar Singh</h5>
-                                    <small>IIITM, Gwalior, India</small>
-                                </div>
+                    </div>
+                    <div class="wow fadeInUp col-lg-3 col-md-6" data-wow-delay=0.1s>
+                        <div class="bg-light team-item">
+                            <div class="text-center p-4">
+                                <h5 class=mb-0>Prof. Pramod Kumar Singh</h5><small>IIITM, Gwalior, India</small>
                             </div>
                         </div>
-                        
-
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="team-item bg-light">
-                                <!-- <div class="overflow-hidden">
-                                    <img class="img-fluid" src="images/committee/Buyya.jpg" alt="">
-                                </div> -->
-                                <div class="text-center p-4">
-                                    <h5 class="mb-0">Prof. Joydip Dhar</h5>
-                                    <small>IIITM, Gwalior, India</small>
-                                </div>
+                    </div>
+                    <div class="wow fadeInUp col-lg-3 col-md-6" data-wow-delay=0.1s>
+                        <div class="bg-light team-item">
+                            <div class="text-center p-4">
+                                <h5 class=mb-0>Prof. Joydip Dhar</h5><small>IIITM, Gwalior, India</small>
                             </div>
                         </div>
-                        
-
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="team-item bg-light">
-                                <!-- <div class="overflow-hidden">
-                                    <img class="img-fluid" src="images/committee/Buyya.jpg" alt="">
-                                </div> -->
-                                <div class="text-center p-4">
-                                    <h5 class="mb-0">Dr. Rahul Kala</h5>
-                                    <small>IIITM Gwalior, India</small>
-                                </div>
+                    </div>
+                    <div class="wow fadeInUp col-lg-3 col-md-6" data-wow-delay=0.1s>
+                        <div class="bg-light team-item">
+                            <div class="text-center p-4">
+                                <h5 class=mb-0>Dr. Rahul Kala</h5><small>IIITM Gwalior, India</small>
                             </div>
                         </div>
-                        
-
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="team-item bg-light">
-                                <!-- <div class="overflow-hidden">
-                                    <img class="img-fluid" src="images/committee/Buyya.jpg" alt="">
-                                </div> -->
-                                <div class="text-center p-4">
-                                    <h5 class="mb-0">Dr. Sanjeev Sharma</h5>
-                                    <small>Indian Institute of Information Technology, Pune, India</small>
-                                </div>
+                    </div>
+                    <div class="wow fadeInUp col-lg-3 col-md-6" data-wow-delay=0.1s>
+                        <div class="bg-light team-item">
+                            <div class="text-center p-4">
+                                <h5 class=mb-0>Dr. Sanjeev Sharma</h5><small>Indian Institute of Information
+                                    Technology, Pune, India</small>
                             </div>
                         </div>
-                        
-
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="team-item bg-light">
-                                <!-- <div class="overflow-hidden">
-                                    <img class="img-fluid" src="images/committee/Buyya.jpg" alt="">
-                                </div> -->
-                                <div class="text-center p-4">
-                                    <h5 class="mb-0">Dr. Mahendra Pratap</h5>
-                                    <small>Indian Institute of Information Technology, Pune, India</small>
-                                </div>
+                    </div>
+                    <div class="wow fadeInUp col-lg-3 col-md-6" data-wow-delay=0.1s>
+                        <div class="bg-light team-item">
+                            <div class="text-center p-4">
+                                <h5 class=mb-0>Dr. Mahendra Pratap</h5><small>Indian Institute of Information
+                                    Technology, Pune, India</small>
                             </div>
                         </div>
-                        
-
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="team-item bg-light">
-                                <!-- <div class="overflow-hidden">
-                                    <img class="img-fluid" src="images/committee/Buyya.jpg" alt="">
-                                </div> -->
-                                <div class="text-center p-4">
-                                    <h5 class="mb-0">Prof. Jagdish Chand Bansal</h5>
-                                    <small>South Asian University, New Delhi, India</small>
-                                </div>
+                    </div>
+                    <div class="wow fadeInUp col-lg-3 col-md-6" data-wow-delay=0.1s>
+                        <div class="bg-light team-item">
+                            <div class="text-center p-4">
+                                <h5 class=mb-0>Prof. Jagdish Chand Bansal</h5><small>South Asian University, New
+                                    Delhi, India</small>
                             </div>
                         </div>
-                        
-
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="team-item bg-light">
-                                <!-- <div class="overflow-hidden">
-                                    <img class="img-fluid" src="images/committee/Buyya.jpg" alt="">
-                                </div> -->
-                                <div class="text-center p-4">
-                                    <h5 class="mb-0">Prof. Lalit Kumar Awasthi</h5>
-                                    <small>Professor and Director, NIT, Hamirpur</small>
-                                </div>
+                    </div>
+                    <div class="wow fadeInUp col-lg-3 col-md-6" data-wow-delay=0.1s>
+                        <div class="bg-light team-item">
+                            <div class="text-center p-4">
+                                <h5 class=mb-0>Prof. Lalit Kumar Awasthi</h5><small>Professor and Director, NIT,
+                                    Hamirpur</small>
                             </div>
                         </div>
-                        
-
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="team-item bg-light">
-                                <!-- <div class="overflow-hidden">
-                                    <img class="img-fluid" src="images/committee/Buyya.jpg" alt="">
-                                </div> -->
-                                <div class="text-center p-4">
-                                    <h5 class="mb-0">Prof. Mahesh Chandra Govil</h5>
-                                    <small>Director, NIT Sikkim</small>
-                                </div>
+                    </div>
+                    <div class="wow fadeInUp col-lg-3 col-md-6" data-wow-delay=0.1s>
+                        <div class="bg-light team-item">
+                            <div class="text-center p-4">
+                                <h5 class=mb-0>Prof. Mahesh Chandra Govil</h5><small>Director, NIT Sikkim</small>
                             </div>
                         </div>
-                        
-
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="team-item bg-light">
-                                <!-- <div class="overflow-hidden">
-                                    <img class="img-fluid" src="images/committee/Buyya.jpg" alt="">
-                                </div> -->
-                                <div class="text-center p-4">
-                                    <h5 class="mb-0">Prof. Durga Prasad Mohapatra</h5>
-                                    <small>NIT, Rourkela</small>
-                                </div>
+                    </div>
+                    <div class="wow fadeInUp col-lg-3 col-md-6" data-wow-delay=0.1s>
+                        <div class="bg-light team-item">
+                            <div class="text-center p-4">
+                                <h5 class=mb-0>Prof. Durga Prasad Mohapatra</h5><small>NIT, Rourkela</small>
                             </div>
                         </div>
-                        
-
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="team-item bg-light">
-                                <!-- <div class="overflow-hidden">
-                                    <img class="img-fluid" src="images/committee/Buyya.jpg" alt="">
-                                </div> -->
-                                <div class="text-center p-4">
-                                    <h5 class="mb-0">Prof. R.K. Pateriya</h5>
-                                    <small>NIT Bhopal, India</small>
-                                </div>
+                    </div>
+                    <div class="wow fadeInUp col-lg-3 col-md-6" data-wow-delay=0.1s>
+                        <div class="bg-light team-item">
+                            <div class="text-center p-4">
+                                <h5 class=mb-0>Prof. R.K. Pateriya</h5><small>NIT Bhopal, India</small>
                             </div>
                         </div>
-                        
-
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="team-item bg-light">
-                                <!-- <div class="overflow-hidden">
-                                    <img class="img-fluid" src="images/committee/Buyya.jpg" alt="">
-                                </div> -->
-                                <div class="text-center p-4">
-                                    <h5 class="mb-0">Prof. Deepak Singh Tomar</h5>
-                                    <small>NIT Bhopal, India</small>
-                                </div>
+                    </div>
+                    <div class="wow fadeInUp col-lg-3 col-md-6" data-wow-delay=0.1s>
+                        <div class="bg-light team-item">
+                            <div class="text-center p-4">
+                                <h5 class=mb-0>Prof. Deepak Singh Tomar</h5><small>NIT Bhopal, India</small>
                             </div>
                         </div>
-                        
-
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="team-item bg-light">
-                                <!-- <div class="overflow-hidden">
-                                    <img class="img-fluid" src="images/committee/Buyya.jpg" alt="">
-                                </div> -->
-                                <div class="text-center p-4">
-                                    <h5 class="mb-0">Prof. P. Santhi Thilagam</h5>
-                                    <small>NIT Suratkal, India</small>
-                                </div>
+                    </div>
+                    <div class="wow fadeInUp col-lg-3 col-md-6" data-wow-delay=0.1s>
+                        <div class="bg-light team-item">
+                            <div class="text-center p-4">
+                                <h5 class=mb-0>Prof. P. Santhi Thilagam</h5><small>NIT Suratkal, India</small>
                             </div>
                         </div>
-                        
-
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="team-item bg-light">
-                                <!-- <div class="overflow-hidden">
-                                    <img class="img-fluid" src="images/committee/Buyya.jpg" alt="">
-                                </div> -->
-                                <div class="text-center p-4">
-                                    <h5 class="mb-0">Prof. Somasundaram Kumanan</h5>
-                                    <small>NIT, Tiruchirappalli</small>
-                                </div>
+                    </div>
+                    <div class="wow fadeInUp col-lg-3 col-md-6" data-wow-delay=0.1s>
+                        <div class="bg-light team-item">
+                            <div class="text-center p-4">
+                                <h5 class=mb-0>Prof. Somasundaram Kumanan</h5><small>NIT, Tiruchirappalli</small>
                             </div>
                         </div>
-                        
-
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="team-item bg-light">
-                                <!-- <div class="overflow-hidden">
-                                    <img class="img-fluid" src="images/committee/Buyya.jpg" alt="">
-                                </div> -->
-                                <div class="text-center p-4">
-                                    <h5 class="mb-0">Dr. Chandra Prakash</h5>
-                                    <small>NIT, Surat, India</small>
-                                </div>
+                    </div>
+                    <div class="wow fadeInUp col-lg-3 col-md-6" data-wow-delay=0.1s>
+                        <div class="bg-light team-item">
+                            <div class="text-center p-4">
+                                <h5 class=mb-0>Dr. Chandra Prakash</h5><small>NIT, Surat, India</small>
                             </div>
                         </div>
-                        
-
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="team-item bg-light">
-                                <!-- <div class="overflow-hidden">
-                                    <img class="img-fluid" src="images/committee/Buyya.jpg" alt="">
-                                </div> -->
-                                <div class="text-center p-4">
-                                    <h5 class="mb-0">Dr. Surendiran B</h5>
-                                    <small>NIT Puducherry, India</small>
-                                </div>
+                    </div>
+                    <div class="wow fadeInUp col-lg-3 col-md-6" data-wow-delay=0.1s>
+                        <div class="bg-light team-item">
+                            <div class="text-center p-4">
+                                <h5 class=mb-0>Dr. Surendiran B</h5><small>NIT Puducherry, India</small>
                             </div>
                         </div>
-                        
-
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="team-item bg-light">
-                                <!-- <div class="overflow-hidden">
-                                    <img class="img-fluid" src="images/committee/Buyya.jpg" alt="">
-                                </div> -->
-                                <div class="text-center p-4">
-                                    <h5 class="mb-0">Dr. Sangita Roy</h5>
-                                    <small>Thapar University, Patiala</small>
-                                </div>
+                    </div>
+                    <div class="wow fadeInUp col-lg-3 col-md-6" data-wow-delay=0.1s>
+                        <div class="bg-light team-item">
+                            <div class="text-center p-4">
+                                <h5 class=mb-0>Dr. Sangita Roy</h5><small>Thapar University, Patiala</small>
                             </div>
                         </div>
                     </div>
                 </div>
-                
-                <div class="col-lg-12 wow fadeInUp " data-wow-delay="0.3s">
-                    <h4 class="section-title bg-white text-start text-primary pe-3 text-capitalize mb-3 mt-3">Local Advisory Committee
-                    </h4>
-                    <div class="row g-4">
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="team-item bg-light">
-                                <!-- <div class="overflow-hidden">
-                                    <img class="img-fluid" src="images/committee/Buyya.jpg" alt="">
-                                </div> -->
-                                <div class="text-center p-4">
-                                    <h5 class="mb-0">Dr. Poonkuntran S</h5>
-                                    <small>Executive Dean, VIT Bhopal</small>
-                                </div>
+            </div>
+            <div class="wow fadeInUp col-lg-12" data-wow-delay=0.3s>
+                <h4 class="bg-white section-title text-primary mb-3 mt-3 pe-3 text-capitalize text-start">Local
+                    Advisory Committee</h4>
+                <div class="row g-4">
+                    <div class="wow fadeInUp col-lg-3 col-md-6" data-wow-delay=0.1s>
+                        <div class="bg-light team-item">
+                            <div class="text-center p-4">
+                                <h5 class=mb-0>Dr. Poonkuntran S</h5><small>Executive Dean, VIT Bhopal</small>
                             </div>
                         </div>
-                        
-
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="team-item bg-light">
-                                <!-- <div class="overflow-hidden">
-                                    <img class="img-fluid" src="images/committee/Buyya.jpg" alt="">
-                                </div> -->
-                                <div class="text-center p-4">
-                                    <h5 class="mb-0">Dr. Pon Harshavardhanan</h5>
-                                    <small>Dean-SCAI, VIT Bhopal University</small>
-                                </div>
+                    </div>
+                    <div class="wow fadeInUp col-lg-3 col-md-6" data-wow-delay=0.1s>
+                        <div class="bg-light team-item">
+                            <div class="text-center p-4">
+                                <h5 class=mb-0>Dr. Pon Harshavardhanan</h5><small>Dean-SCAI, VIT Bhopal
+                                    University</small>
                             </div>
                         </div>
-                        
-
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="team-item bg-light">
-                                <!-- <div class="overflow-hidden">
-                                    <img class="img-fluid" src="images/committee/Buyya.jpg" alt="">
-                                </div> -->
-                                <div class="text-center p-4">
-                                    <h5 class="mb-0">Dr. Pushpinder Singh Patheja</h5>
-                                    <small>Dean-SCOPE, VIT Bhopal University</small>
-                                </div>
+                    </div>
+                    <div class="wow fadeInUp col-lg-3 col-md-6" data-wow-delay=0.1s>
+                        <div class="bg-light team-item">
+                            <div class="text-center p-4">
+                                <h5 class=mb-0>Dr. Pushpinder Singh Patheja</h5><small>Dean-SCOPE, VIT Bhopal
+                                    University</small>
                             </div>
                         </div>
-                        
-
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="team-item bg-light">
-                                <!-- <div class="overflow-hidden">
-                                    <img class="img-fluid" src="images/committee/Buyya.jpg" alt="">
-                                </div> -->
-                                <div class="text-center p-4">
-                                    <h5 class="mb-0">Dr. M. Suresh</h5>
-                                    <small>Dean SEEE, VIT Bhopal</small>
-                                </div>
+                    </div>
+                    <div class="wow fadeInUp col-lg-3 col-md-6" data-wow-delay=0.1s>
+                        <div class="bg-light team-item">
+                            <div class="text-center p-4">
+                                <h5 class=mb-0>Dr. M. Suresh</h5><small>Dean SEEE, VIT Bhopal</small>
                             </div>
                         </div>
-                        
-
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="team-item bg-light">
-                                <!-- <div class="overflow-hidden">
-                                    <img class="img-fluid" src="images/committee/Buyya.jpg" alt="">
-                                </div> -->
-                                <div class="text-center p-4">
-                                    <h5 class="mb-0">Dr. Hemant Kumar Nashin</h5>
-                                    <small>Dean SASL, VIT Bhopal</small>
-                                </div>
+                    </div>
+                    <div class="wow fadeInUp col-lg-3 col-md-6" data-wow-delay=0.1s>
+                        <div class="bg-light team-item">
+                            <div class="text-center p-4">
+                                <h5 class=mb-0>Dr. Hemant Kumar Nashin</h5><small>Dean SASL, VIT Bhopal</small>
                             </div>
                         </div>
-                        
-
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="team-item bg-light">
-                                <!-- <div class="overflow-hidden">
-                                    <img class="img-fluid" src="images/committee/Buyya.jpg" alt="">
-                                </div> -->
-                                <div class="text-center p-4">
-                                    <h5 class="mb-0">Dr. Sheetal Sharma</h5>
-                                    <small>Dean SOA, VIT Bhopal</small>
-                                </div>
+                    </div>
+                    <div class="wow fadeInUp col-lg-3 col-md-6" data-wow-delay=0.1s>
+                        <div class="bg-light team-item">
+                            <div class="text-center p-4">
+                                <h5 class=mb-0>Dr. Sheetal Sharma</h5><small>Dean SOA, VIT Bhopal</small>
                             </div>
                         </div>
-                        
-
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="team-item bg-light">
-                                <!-- <div class="overflow-hidden">
-                                    <img class="img-fluid" src="images/committee/Buyya.jpg" alt="">
-                                </div> -->
-                                <div class="text-center p-4">
-                                    <h5 class="mb-0">Dr. Prasad Begde</h5>
-                                    <small>Dean, VIT-BS</small>
-                                </div>
+                    </div>
+                    <div class="wow fadeInUp col-lg-3 col-md-6" data-wow-delay=0.1s>
+                        <div class="bg-light team-item">
+                            <div class="text-center p-4">
+                                <h5 class=mb-0>Dr. Prasad Begde</h5><small>Dean, VIT-BS</small>
                             </div>
                         </div>
-                        
-
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="team-item bg-light">
-                                <!-- <div class="overflow-hidden">
-                                    <img class="img-fluid" src="images/committee/Buyya.jpg" alt="">
-                                </div> -->
-                                <div class="text-center p-4">
-                                    <h5 class="mb-0">Dr. Siddhartha Maiti</h5>
-                                    <small>SBET, VIT Bhopal</small>
-                                </div>
+                    </div>
+                    <div class="wow fadeInUp col-lg-3 col-md-6" data-wow-delay=0.1s>
+                        <div class="bg-light team-item">
+                            <div class="text-center p-4">
+                                <h5 class=mb-0>Dr. Siddhartha Maiti</h5><small>SBET, VIT Bhopal</small>
                             </div>
                         </div>
-                        
-
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="team-item bg-light">
-                                <!-- <div class="overflow-hidden">
-                                    <img class="img-fluid" src="images/committee/Buyya.jpg" alt="">
-                                </div> -->
-                                <div class="text-center p-4">
-                                    <h5 class="mb-0">Dr. S. Balaguru</h5>
-                                    <small>Dean, SMEC, VIT Bhopal</small>
-                                </div>
+                    </div>
+                    <div class="wow fadeInUp col-lg-3 col-md-6" data-wow-delay=0.1s>
+                        <div class="bg-light team-item">
+                            <div class="text-center p-4">
+                                <h5 class=mb-0>Dr. S. Balaguru</h5><small>Dean, SMEC, VIT Bhopal</small>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="col-lg-12 wow fadeInUp " data-wow-delay="0.3s">
-                    <h4 class="section-title bg-white text-start text-primary pe-3 text-capitalize mb-3 mt-3">General Chair
-                    </h4>
-                    <div class="row g-4">
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="team-item bg-light">
-                                <!-- <div class="overflow-hidden">
-                                    <img class="img-fluid" src="images/committee/Buyya.jpg" alt="">
-                                </div> -->
-                                <div class="text-center p-4">
-                                    <h5 class="mb-0">Dr. Poonkuntran S</h5>
-                                    <small>Executive Dean, VIT Bhopal</small>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="team-item bg-light">
-                                <!-- <div class="overflow-hidden">
-                                    <img class="img-fluid" src="images/committee/Buyya.jpg" alt="">
-                                </div> -->
-                                <div class="text-center p-4">
-                                    <h5 class="mb-0">Dr. Pon Harshavardhanan</h5>
-                                    <small>Dean-SCAI, VIT Bhopal University</small>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="team-item bg-light">
-                                <!-- <div class="overflow-hidden">
-                                    <img class="img-fluid" src="images/committee/Buyya.jpg" alt="">
-                                </div> -->
-                                <div class="text-center p-4">
-                                    <h5 class="mb-0">Dr. Pushpinder Singh Patheja</h5>
-                                    <small>Dean-SCOPE, VIT Bhopal University</small>
-                                </div>
+            </div>
+            <div class="wow fadeInUp col-lg-12" data-wow-delay=0.3s>
+                <h4 class="bg-white section-title text-primary mb-3 mt-3 pe-3 text-capitalize text-start">General
+                    Chair</h4>
+                <div class="row g-4">
+                    <div class="wow fadeInUp col-lg-3 col-md-6" data-wow-delay=0.1s>
+                        <div class="bg-light team-item">
+                            <div class="text-center p-4">
+                                <h5 class=mb-0>Dr. Poonkuntran S</h5><small>Executive Dean, VIT Bhopal</small>
                             </div>
                         </div>
                     </div>
-                </div> 
-                
-                <div class="col-lg-12 wow fadeInUp " data-wow-delay="0.3s">
-                    <h4 class="section-title bg-white text-start text-primary pe-3 text-capitalize mb-3 mt-3">Conference Chair
-                    </h4>
-                    <div class="row g-4">
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="team-item bg-light">
-                                <!-- <div class="overflow-hidden">
-                                    <img class="img-fluid" src="images/committee/Buyya.jpg" alt="">
-                                </div> -->
-                                <div class="text-center p-4">
-                                    <h5 class="mb-0">Dr. Hemraj. S. Lamkuche</h5>
-                                    <small>SCAI, VIT Bhopal University
-                                    </small>
-                                </div>
+                    <div class="wow fadeInUp col-lg-3 col-md-6" data-wow-delay=0.1s>
+                        <div class="bg-light team-item">
+                            <div class="text-center p-4">
+                                <h5 class=mb-0>Dr. Pon Harshavardhanan</h5><small>Dean-SCAI, VIT Bhopal
+                                    University</small>
                             </div>
                         </div>
                     </div>
-                </div>  
-
-                <div class="col-lg-12 wow fadeInUp " data-wow-delay="0.3s">
-                    <h4 class="section-title bg-white text-start text-primary pe-3 text-capitalize mb-3 mt-3">Conveners
-                    </h4>
-                    <div class="row g-4">
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="team-item bg-light">
-                                <!-- <div class="overflow-hidden">
-                                    <img class="img-fluid" src="images/committee/Buyya.jpg" alt="">
-                                </div> -->
-                                <div class="text-center p-4">
-                                    <h5 class="mb-0">Dr. Virendra Singh Kushwah</h5>
-                                    <small>SCAI, VIT Bhopal University</small>
-                                </div>
-                            </div>
-                        </div>
-                        
-
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="team-item bg-light">
-                                <!-- <div class="overflow-hidden">
-                                    <img class="img-fluid" src="images/committee/Buyya.jpg" alt="">
-                                </div> -->
-                                <div class="text-center p-4">
-                                    <h5 class="mb-0">Dr. M. Manimaran</h5>
-                                    <small>SCAI, VIT Bhopal University</small>
-                                </div>
-                            </div>
-                        </div>
-                        
-
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="team-item bg-light">
-                                <!-- <div class="overflow-hidden">
-                                    <img class="img-fluid" src="images/committee/Buyya.jpg" alt="">
-                                </div> -->
-                                <div class="text-center p-4">
-                                    <h5 class="mb-0">Dr. G. Prabu Kanna</h5>
-                                    <small>SCAI, VIT Bhopal University</small>
-                                </div>
-                            </div>
-                        </div>
-                        
-
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="team-item bg-light">
-                                <!-- <div class="overflow-hidden">
-                                    <img class="img-fluid" src="images/committee/Buyya.jpg" alt="">
-                                </div> -->
-                                <div class="text-center p-4">
-                                    <h5 class="mb-0">Dr. Ganeshan R</h5>
-                                    <small>SCAI, VIT Bhopal University</small>
-                                </div>
-                            </div>
-                        </div>
-                        
-
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="team-item bg-light">
-                                <!-- <div class="overflow-hidden">
-                                    <img class="img-fluid" src="images/committee/Buyya.jpg" alt="">
-                                </div> -->
-                                <div class="text-center p-4">
-                                    <h5 class="mb-0">Dr. Siddharth Singh Chouhan</h5>
-                                    <small>SCAI, VIT Bhopal University</small>
-                                </div>
+                    <div class="wow fadeInUp col-lg-3 col-md-6" data-wow-delay=0.1s>
+                        <div class="bg-light team-item">
+                            <div class="text-center p-4">
+                                <h5 class=mb-0>Dr. Pushpinder Singh Patheja</h5><small>Dean-SCOPE, VIT Bhopal
+                                    University</small>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="col-lg-12 wow fadeInUp " data-wow-delay="0.3s">
-                    <h4 class="section-title bg-white text-start text-primary pe-3 text-capitalize mb-3 mt-3">Joint Conveners 
-                    </h4>
-                    <div class="row g-4">
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="team-item bg-light">
-                                <!-- <div class="overflow-hidden">
-                                    <img class="img-fluid" src="images/committee/Buyya.jpg" alt="">
-                                </div> -->
-                                <div class="text-center p-4">
-                                    <h5 class="mb-0">Dr. Rajdeep Singh Payal</h5>
-                                    <small>SASL, VIT Bhopal University</small>
-                                </div>
-                            </div>
-                        </div>
-                        
-
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="team-item bg-light">
-                                <!-- <div class="overflow-hidden">
-                                    <img class="img-fluid" src="images/committee/Buyya.jpg" alt="">
-                                </div> -->
-                                <div class="text-center p-4">
-                                    <h5 class="mb-0">Dr. Saurav Prasad</h5>
-                                    <small>SASL, VIT Bhopal University</small>
-                                </div>
-                            </div>
-                        </div>
-                        
-
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="team-item bg-light">
-                                <!-- <div class="overflow-hidden">
-                                    <img class="img-fluid" src="images/committee/Buyya.jpg" alt="">
-                                </div> -->
-                                <div class="text-center p-4">
-                                    <h5 class="mb-0">Dr. Sayed Mohammed Zeeshan</h5>
-                                    <small>SASL, VIT Bhopal University</small>
-                                </div>
-                            </div>
-                        </div>
-                        
-
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="team-item bg-light">
-                                <!-- <div class="overflow-hidden">
-                                    <img class="img-fluid" src="images/committee/Buyya.jpg" alt="">
-                                </div> -->
-                                <div class="text-center p-4">
-                                    <h5 class="mb-0">Dr. Siddhartha Maiti</h5>
-                                    <small>SBET, VIT Bhopal University</small>
-                                </div>
-                            </div>
-                        </div>
-                        
-
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="team-item bg-light">
-                                <!-- <div class="overflow-hidden">
-                                    <img class="img-fluid" src="images/committee/Buyya.jpg" alt="">
-                                </div> -->
-                                <div class="text-center p-4">
-                                    <h5 class="mb-0">Dr. Soumya Sankar Ghosh</h5>
-                                    <small>SASL, VIT Bhopal University</small>
-                                </div>
-                            </div>
-                        </div>
-                        
-
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="team-item bg-light">
-                                <!-- <div class="overflow-hidden">
-                                    <img class="img-fluid" src="images/committee/Buyya.jpg" alt="">
-                                </div> -->
-                                <div class="text-center p-4">
-                                    <h5 class="mb-0">Dr. Shiv Manjaree Gopaliya</h5>
-                                    <small>SMEC, VIT Bhopal University</small>
-                                </div>
+            </div>
+            <div class="wow fadeInUp col-lg-12" data-wow-delay=0.3s>
+                <h4 class="bg-white section-title text-primary mb-3 mt-3 pe-3 text-capitalize text-start">Conference
+                    Chair</h4>
+                <div class="row g-4">
+                    <div class="wow fadeInUp col-lg-3 col-md-6" data-wow-delay=0.1s>
+                        <div class="bg-light team-item">
+                            <div class="text-center p-4">
+                                <h5 class=mb-0>Dr. Hemraj. S. Lamkuche</h5><small>SCAI, VIT Bhopal
+                                    University</small>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!--
-            <div class="col-lg-12 wow fadeInUp "  data-wow-delay="0.3s">
-                <h4 class="section-title bg-white text-start text-primary pe-3 text-capitalize mb-3 mt-3">General Chairs</h4>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Prof. Kuan-Ching Li</b>, Providence University, Taiwan</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Prof. R. B. V. Subramaanyam</b>, NIT Warangal</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Prof. Sanjaya Kumar Panda</b>, NIT Warangal</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Prof. Rashmi Ranjan Rout</b>, NIT Warangal</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Prof. S. Ravi Chandra</b>, NIT Warangal</P>
-            </div> -->
-                <!--
-            <div class="col-lg-12 wow fadeInUp "  data-wow-delay="0.3s">
-                <h4 class="section-title bg-white text-start text-primary pe-3 text-capitalize mb-3 mt-3">Reviewers</h4>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Kenji Suzuki</b>, Illinois Institute of Technology, USA </P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Valentina Emilia Balas</b>, Aurel Vlaicu University of Arad, Romania </P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Prof. Binayak Kar</b>, National Taiwan University of Science and Technology, Taiwan</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Pradeep kumar Roy</b>, IIIT Surat</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Debi Prasanna Acharjya</b>, VIT, Vellore</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Ansuman Mohapatra</b>, NIT Puduchery</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Chandrasekar R</b>, NIT Puduchery</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Rahul Dixit</b>, IIIT Pune</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Mukesh Kumar</b>, NIT Patna</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Deepak Ranjan Nayak</b>, IIITDM Kanchipuram</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Subasish Mohapatra</b>, OUTR Bhubaneswar</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Soubhagya Shankar Barpanda</b>, VIT AP</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Munesh Singh</b>, IIITDM Kancheepuram</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Jitendra Kumar Rout</b>, NIT Raipur</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Asish Kumar Dalai</b>, VIT AP</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Jagadeesh Kakarla</b>, IIITDM Kancheepuram</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Suvendu Mohapatra</b>, Volktek, Taiwan</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Shashank Mouli Satapathy</b>, VIT Vellore</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Mohd. Saifuzzaman </b>, Daffodil International University, Dhaka, Bangladesh</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Dharmveer Kumar Yadav</b>, KEC Katihar</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Rahul Raman</b>, IIITDM Kancheepuram</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Aakanksha Sharaff</b>, NIT Raipur</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Abhimanyu Kumar</b>, NIT Uttarakhand</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Achyuth Sarkar</b>, NIT Arunachal Pradesh</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Alekha Kumar Mishra</b>, NIT Jamshedpur</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Anshul Verma</b>, BHU Varanasi</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Anurag Singh</b>, NIT Delhi</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Arti Jain</b>, JIIT Noida</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Aryabartta Sahu</b>, IIT Guwahati</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Ashok Kumar Das</b>, IIIT Hyderabad</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Asis Tripathy</b>, VIT Vellore</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Ayon Chakraborthy</b>, IIT Madras</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>B. B. Gupta</b>, NIT Kurukshetra</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>B. Satya Sekhar</b>, IIT Jammu</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Balu L. Parne</b>, SVNIT Surat</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Bibhudatta Sahoo</b>, NIT Rourkela</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Bunil Kumar Balabantaray</b>, NIT Meghalaya</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Damodar Reddy Edla</b>, NIT Goa</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Deepak Ranjan Nayak</b>, MNIT Jaipur</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Diptendu Sinha Roy</b>, NIT Meghalaya</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Geeta Sikka</b>, NIT Jalandhar</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Jagadeesh Kakarla</b>, IIITDM Kancheepuram</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Jyoti Prakash Singh</b>, NIT Patna</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Kumar Abhishek</b>, NIT Patna</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Lalatendu Behera</b>, NIT Jalandhar</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Malaya Dutta Borah</b>, NIT Silchar</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Manas Ranjan Prusty</b>, VIT Chennai</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Mantosh Biswas</b>, NIT Kurukshetra</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Mrinal Kanti Debbarma</b>, NIT Agartala</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Mukesh Kumar</b>, NIT Patna</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Munesh Singh</b>, IIITDM Kancheepuram</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Nagesh Bhattu Sristy</b>, NIT Andhra Pradesh</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Niladri Bihari Puhan</b>, IIT Bhubaneswar</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Nilay Khare</b>, MANIT Bhopal</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Nitin Singh Singha</b>, NIT Delhi</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Pabitra Mohan Khilar</b>, NIT Rourkela</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Padmalochan Bera</b>, IIT Bhubaneswar</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Pilli Emmanuel Shubhakar</b>, MNIT Jaipur</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Pradeep Kumar Roy</b>, IIIT Surat</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Pranesh Das</b>, NIT Calicut</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Pratyay Kuila</b>, NIT Sikkim</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Preeti Chandrakar</b>, NIT Raipur</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Priya Ranjan Muduli</b>, IIT (BHU) Varanasi</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Ranjita Das</b>, NIT Mizoram</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>S. Karthick</b>, NIT Andhra Pradesh</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Sai Krishna Mothku</b>, NIT Trichy</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Sangram Ray</b>, NIT Sikkim</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Sanjeet Kumar Nayak</b>, IIITDM Kancheepuram</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Satya Prakash Sahu</b>, NIT Raipur</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Satyendra Singh Yadav</b>, NIT Meghalaya</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Shelly Sachdeva</b>, NIT Delhi</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Sourav Kanti Addya</b>, NITK Surathkal</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Suchismita Chinara</b>, NIT Rourkela</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Sujata Pal</b>, IIT Ropar</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Surendra Singh</b>, NIT Uttarakhand</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Swarnendu Kumar Chakraborty</b>, NIT Arunachal Pradesh</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Sandeep Kumar Dash</b>, NIT Mizoram</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Umakanta Majhi</b>, NIT Silchar</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Amiya Kumar Rath</b>, NAAC Advisor</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Ashok Kumar Turuk</b>, NIT Rourkela</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>B. B. Amberker</b>, NIT Warangal</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Chiranjeevi Kumar</b>, IIT (ISM) Dhanbad</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Devesh C. Jinwala</b>, SVNIT Surat</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Durga Prasad Mohapatra</b>, NIT Rourkela</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>K. Chandrasekaran</b>, NITK Surathkal</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Mahasweta Sarkar</b>, San Diego State University, USA</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Prasanta K. Jana</b>, IIT (ISM) Dhanbad</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>P. Radha Krishna</b>, NIT Warangal</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>P. Santhi Thilagam</b>, NITK Surathkal</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Soumya Kanti Ghosh</b>, IIT Kharagpur</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>S. G. Sanjeevi</b>, NIT Warangal</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Shivashankar B. Nair</b>, IIT Guwahati</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Subrata Nandi</b>, NIT Durgapur</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Sudip Misra</b>, IIT Kharagpur</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>U. A. Deshpande</b>, VNIT Nagpur</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Vincenzo Piuri</b>, University of Milan, Italy</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Willy Susilo</b>, University of Wollongong, Australia</P>
-                <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i><b>Yiu-Ming Cheung</b>, Hong Kong Baptist University, Hong Kong</P>
-
-            </div> -->
-
+            </div>
+            <div class="wow fadeInUp col-lg-12" data-wow-delay=0.3s>
+                <h4 class="bg-white section-title text-primary mb-3 mt-3 pe-3 text-capitalize text-start">Conveners
+                </h4>
+                <div class="row g-4">
+                    <div class="wow fadeInUp col-lg-3 col-md-6" data-wow-delay=0.1s>
+                        <div class="bg-light team-item">
+                            <div class="text-center p-4">
+                                <h5 class=mb-0>Dr. Virendra Singh Kushwah</h5><small>SCAI, VIT Bhopal
+                                    University</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wow fadeInUp col-lg-3 col-md-6" data-wow-delay=0.1s>
+                        <div class="bg-light team-item">
+                            <div class="text-center p-4">
+                                <h5 class=mb-0>Dr. M. Manimaran</h5><small>SCAI, VIT Bhopal University</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wow fadeInUp col-lg-3 col-md-6" data-wow-delay=0.1s>
+                        <div class="bg-light team-item">
+                            <div class="text-center p-4">
+                                <h5 class=mb-0>Dr. G. Prabu Kanna</h5><small>SCAI, VIT Bhopal University</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wow fadeInUp col-lg-3 col-md-6" data-wow-delay=0.1s>
+                        <div class="bg-light team-item">
+                            <div class="text-center p-4">
+                                <h5 class=mb-0>Dr. Ganeshan R</h5><small>SCAI, VIT Bhopal University</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wow fadeInUp col-lg-3 col-md-6" data-wow-delay=0.1s>
+                        <div class="bg-light team-item">
+                            <div class="text-center p-4">
+                                <h5 class=mb-0>Dr. Siddharth Singh Chouhan</h5><small>SCAI, VIT Bhopal
+                                    University</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="wow fadeInUp col-lg-12" data-wow-delay=0.3s>
+                <h4 class="bg-white section-title text-primary mb-3 mt-3 pe-3 text-capitalize text-start">Joint
+                    Conveners</h4>
+                <div class="row g-4">
+                    <div class="wow fadeInUp col-lg-3 col-md-6" data-wow-delay=0.1s>
+                        <div class="bg-light team-item">
+                            <div class="text-center p-4">
+                                <h5 class=mb-0>Dr. Rajdeep Singh Payal</h5><small>SASL, VIT Bhopal
+                                    University</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wow fadeInUp col-lg-3 col-md-6" data-wow-delay=0.1s>
+                        <div class="bg-light team-item">
+                            <div class="text-center p-4">
+                                <h5 class=mb-0>Dr. Saurav Prasad</h5><small>SASL, VIT Bhopal University</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wow fadeInUp col-lg-3 col-md-6" data-wow-delay=0.1s>
+                        <div class="bg-light team-item">
+                            <div class="text-center p-4">
+                                <h5 class=mb-0>Dr. Sayed Mohammed Zeeshan</h5><small>SASL, VIT Bhopal
+                                    University</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wow fadeInUp col-lg-3 col-md-6" data-wow-delay=0.1s>
+                        <div class="bg-light team-item">
+                            <div class="text-center p-4">
+                                <h5 class=mb-0>Dr. Siddhartha Maiti</h5><small>SBET, VIT Bhopal University</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wow fadeInUp col-lg-3 col-md-6" data-wow-delay=0.1s>
+                        <div class="bg-light team-item">
+                            <div class="text-center p-4">
+                                <h5 class=mb-0>Dr. Soumya Sankar Ghosh</h5><small>SASL, VIT Bhopal
+                                    University</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wow fadeInUp col-lg-3 col-md-6" data-wow-delay=0.1s>
+                        <div class="bg-light team-item">
+                            <div class="text-center p-4">
+                                <h5 class=mb-0>Dr. Shiv Manjaree Gopaliya</h5><small>SMEC, VIT Bhopal
+                                    University</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-
-<!-- Footer Start -->
-<div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+</div>
+<div class="wow bg-dark container-fluid fadeIn footer mt-5 pt-5 text-light" data-wow-delay=0.1s>
     <div class="container py-5">
         <div class="row g-5">
-            <div class="col-md-6">
-                <h4 class="text-white mb-3">Quick Link</h4>
-                <a class="btn btn-link" href="about.html">About Us</a>
-                <a class="btn btn-link" href="contact.html">Contact Us</a>
-                <a class="btn btn-link" href="committee.html">Committee</a>
-                <!-- <a class="btn btn-link" href="proceedings.html">Proceedings</a> -->
-                <a class="btn btn-link" href="registration.html">Registration</a>
+            <div class=col-md-6>
+                <h4 class="mb-3 text-white">Quick Link</h4><a href=about.html class="btn btn-link">About Us</a> <a
+                    href=contact.html class="btn btn-link">Contact Us</a> <a href=committee.html
+                    class="btn btn-link">Committee</a><a href=registration.html class="btn btn-link">Registration</a>
             </div>
-            <div class="col-md-6">
-                <h4 class="text-white mb-3">Contact - Conference Chair</h4>
-                <p class="mb-2"><i class="fa fa-user me-2"></i>Dr. Hemraj. S. Lamkuche, SCAI, VIT Bhopal University</p>
-                <p class="mb-2"><i class="fa fa-user me-2"></i>Dr. Virendra Singh Kushwah, SCAI, VIT Bhopal University</p>
-                <!-- <p class="mb-2"><i class="fa fa-map-marker-alt me-2"></i>Dept. of SCAI, VIT BHOPAL, INDIA</p> -->
-                <p class="mb-2"><i class="fa fa-envelope me-2"></i>icdccconf@vitbhopal.ac.in</p>
-                <div class="d-flex pt-2">
-                    <a class="btn btn-outline-light btn-social" href="#"><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-outline-light btn-social" href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-outline-light btn-social" href="#"><i class="fab fa-youtube"></i></a>
-                    <a class="btn btn-outline-light btn-social" href="#"><i class="fab fa-linkedin-in"></i></a>
-                </div>
-            </div>
-
-        </div>
-    </div>
-    <div class="container">
-        <div class="copyright text-center">
-            <div class="row text-center align-items-baseline">
-                <div class="col-md-6 text-center text-md-start align-bottom mb-3 mb-md-0">
-                    &copy; <a href="index-2.html" style="alignment: center">www.icdcc.in</a>, All Right Reserved.
-                </div>
+            <div class=col-md-6>
+                <h4 class="mb-3 text-white">Contact - Conference Chair</h4>
+                <p class=mb-2><i class="fa me-2 fa-user"></i>Dr. Hemraj. S. Lamkuche, SCAI, VIT Bhopal University
+                <p class=mb-2><i class="fa me-2 fa-user"></i>Dr. Virendra Singh Kushwah, SCAI, VIT Bhopal University
+                <p class=mb-2><i class="fa me-2 fa-envelope"></i>icdccconf@vitbhopal.ac.in
+                <div class="d-flex pt-2"><a href=# class="btn btn-outline-light btn-social"><i
+                            class="fab fa-twitter"></i></a> <a href=# class="btn btn-outline-light btn-social"><i
+                            class="fab fa-facebook-f"></i></a> <a href=# class="btn btn-outline-light btn-social"><i
+                            class="fab fa-youtube"></i></a> <a href=# class="btn btn-outline-light btn-social"><i
+                            class="fab fa-linkedin-in"></i></a></div>
             </div>
         </div>
     </div>
-</div>
-<!-- Footer End -->
-
-
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
-
-
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
-</body>
-
-
-
-
-</html>
+    <div class=container>
+        <div class="text-center copyright">
+            <div class="text-center align-items-baseline row">
+                <div class="text-center align-bottom col-md-6 mb-3 mb-md-0 text-md-start">© <a href=index-2.html
+                        style=alignment:center>www.icdcc.in</a>, All Right Reserved.</div>
+            </div>
+        </div>
+    </div>
+</div><a href=# class="btn back-to-top btn-lg btn-lg-square btn-primary"><i class="bi bi-arrow-up"></i></a>
+<script src=https://code.jquery.com/jquery-3.4.1.min.js></script>
+<script src=https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js></script>
+<script src=lib/wow/wow.min.js></script>
+<script src=lib/easing/easing.min.js></script>
+<script src=lib/waypoints/waypoints.min.js></script>
+<script src=lib/owlcarousel/owl.carousel.min.js></script>
+<script src=js/main.js></script>
